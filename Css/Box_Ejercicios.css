@@ -1,0 +1,27 @@
+@import url(../Style.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+.Box__Ejercicios-title{   
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 20px 10px 0px 30px;
+    text-align: center;
+}
+.Box__Ejercicios-subtitle{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom:10px ;
+    text-align: center;
+}
+

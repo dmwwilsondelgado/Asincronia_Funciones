@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); /*fuentes */
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=IM+Fell+French+Canon+SC&display=swap');
+.im-fell-french-canon-sc-regular {
+    font-family: "IM Fell French Canon SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=IM+Fell+French+Canon+SC&family=Protest+Revolution&display=swap');
+.protest-revolution-regular {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+Body{
+    background-image: url(Recursos__img/cool-background\ \(2\).png);
+    height: 100vh;
+}
+
+.Content__Title{   
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 20px 10px 0px 30px;
+    text-align: center;
+}
+.Content__Titlesub{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom:10px ;
+    text-align: center;
+}
+.Content__List{
+    margin: 20px;
+}
+.Content_Links{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    /* margin-lef: 10px; */
+    background-color: rgb(206, 218, 245);
+    border-radius: 20px;
+}
+
+.Listado_List{
+    text-decoration: none;
+    color: black;
+    font-family: "Protest Revolution", sans-serif;
+    /* font-weight: 400;
+    font-style: normal; */
+}
+.Content__Logo{
+    /* position: absolute; */
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    /* margin-left:10px ;
+    margin-right: 20px; */
+}
+
+.Content__Logo-Sena{
+    width: 100%;
+    height: 100%;
+}
+
+.Content__Logo-text{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    flex-direction: column;
+    margin-left:6px;
+    text-align: center;
+}
+
+
+.contenido__titulo{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    flex-direction: column;
+    margin-left:6px;
+    text-align: center;
+}
+
+.contenido__texto{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    flex-direction: column;
+    margin-left:6px;
+    text-align: center;
+}
+
+.contenido_parrafo{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    padding-left: 20px;
+}
