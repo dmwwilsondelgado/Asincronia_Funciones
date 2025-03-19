@@ -1,8 +1,8 @@
-import { listarTareasPendientes } from "./1_lista_Tareas/listarTareas.js";
-import { buscarUsuarioMostrarAlbums } from "./2_buscarUsuarioConAlbums/buscarUsuarioYalbums.js";
-import { buscarPostsComentarios } from "./3_buscarPostsConComentarios/buscarPostsYComentarios.js";
-import { filtrarUsuarioPorNombreYTelefono } from "./4_filtarUsuarioNombreYTelefono/filtrarUsuarioPorNombreYTelefono.js";
-import { obtenerUsuariosConTodo } from "./ejercicio 5/app.js";
+import { listarTareasPendientes } from "./Usuarios/listarTareas.js";
+import { buscarUsuarioMostrarAlbums } from "./Usuarios/buscarUsuarioYalbums.js";
+import { buscarPostsComentarios } from "./Usuarios/buscarPostsYComentarios.js";
+import { filtrarUsuarioPorNombreYTelefono } from "./Usuarios/filtrarUsuarioPorNombreYTelefono.js";
+import { obtenerUsuariosConTodo } from "./Usuarios/app.js";
 
 async function mostrarMenu() {
     let opcion = prompt(`Seleccione una opción:

@@ -2,7 +2,8 @@
 // usuarios "getUsuarios", los posts de los usuarios "getPost", los comentarios de los posts "getCommets",
 // los albumes de los usuarios "getAlbumes", las fotos dentro de los albumes "getFotos" y la
 // URL de la API desde el archivo "index.js"
-import { getUsuarios, getPost, getCommets, URL } from "../ejercicio 5/modulos/index.js";
+// ../ejercicio 5/modulos/index.js
+import { getUsuarios, getPost, getCommets, URL } from "../ejercicio 5/modulos/index";
 // se solicita al usuario que ingrese texto para buscar dentro de los titulos de los posts
 // mediante un cuadro de entrada (prompt)
 const tituloBuscado = prompt("Ingrese titulo del post:");
